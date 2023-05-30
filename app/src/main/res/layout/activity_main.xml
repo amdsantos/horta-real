@@ -7,15 +7,6 @@
     android:background="#FAF6EA"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar"
-        android:layout_width="412dp"
-        android:layout_height="60dp"
-        android:background="#FAF6EA"
-        android:elevation="@dimen/material_emphasis_disabled"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <include
+        layout="@layout/toolbar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

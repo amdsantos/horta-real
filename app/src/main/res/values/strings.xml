@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">HortaReal</string>
-    <string name="descriptio">HortaReal</string>
+
 
     //Descrições
     <string name="logo">Logo do aplicativo. Desenho de uma pequena árvore com o nome Horta Real escrito abaixo. Horta em cor vermelha e Real  na cor seila </string>
+    <string name="menu"></string>
 
 </resources>
