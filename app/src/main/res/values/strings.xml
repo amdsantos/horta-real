@@ -1,9 +1,21 @@
 <resources>
     <string name="app_name">HortaReal</string>
+    <string name="title_user">Usuários</string>
+    <string name="title_home">Home</string>
+    <string name="title_register">Cadastrar</string>
 
+
+
+    //Textos
+    <string name="hero_home">Home</string>
+    <string name="hero_info">Informações</string>
+    <string name="hero_register">Cadastrar Item</string>
 
     //Descrições
     <string name="logo">Logo do aplicativo. Desenho de uma pequena árvore com o nome Horta Real escrito abaixo. Horta em cor vermelha e Real  na cor seila </string>
     <string name="menu"></string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
