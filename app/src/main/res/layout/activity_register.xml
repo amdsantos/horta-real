@@ -44,16 +44,16 @@
 
     <ImageButton
         android:id="@+id/btn_home"
-        android:layout_width="66dp"
-        android:layout_height="66dp"
+        android:layout_width="86dp"
+        android:layout_height="86dp"
         android:background="@drawable/shape_indicator_active"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/hero_register"
-        app:layout_constraintVertical_bias="0.95"
-        app:srcCompat="@drawable/ic_home" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vector" />
 
     <ImageButton
         android:id="@+id/btn_user"
@@ -106,15 +106,17 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_register" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="362dp"
-        android:layout_height="423dp"
-        app:cardBackgroundColor="#E2C39A"
+        android:layout_width="359dp"
+        android:layout_height="467dp"
+        android:background="@drawable/border_card"
+        app:cardBackgroundColor="#BAE2C39A"
         app:cardCornerRadius="15dp"
+        app:circularflow_defaultRadius="15dp"
         app:layout_constraintBottom_toTopOf="@+id/btn_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hero_register"
-        app:layout_constraintVertical_bias="0.19999999">
+        app:layout_constraintVertical_bias="0.23000002">
 
         <TextView
             android:id="@+id/textView4"
@@ -123,13 +125,14 @@
             android:fontFamily="@font/inter"
             android:text="Grupo"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/spinner1"
             app:layout_constraintEnd_toEndOf="@+id/spinner1"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/spinner1"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.74" />
 
 
         <Spinner
@@ -147,7 +150,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.341" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
             android:id="@+id/txt_item"
@@ -156,13 +159,14 @@
             android:fontFamily="@font/inter"
             android:text="Item"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/spinner2"
             app:layout_constraintEnd_toEndOf="@+id/spinner2"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/spinner2"
             app:layout_constraintTop_toBottomOf="@+id/spinner1"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.74" />
 
         <Spinner
             android:id="@+id/spinner2"
@@ -188,13 +192,14 @@
             android:fontFamily="@font/inter"
             android:text="Sensores"
             android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/spinner3"
             app:layout_constraintEnd_toEndOf="@+id/spinner3"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/spinner3"
             app:layout_constraintTop_toBottomOf="@+id/spinner2"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.74" />
 
         <Spinner
             android:id="@+id/spinner3"
@@ -211,6 +216,21 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="114dp"
+            android:layout_height="51dp"
+            android:fontFamily="@font/inter"
+            android:text="Salvar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/spinner3"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/spinner3"
+            app:layout_constraintTop_toBottomOf="@+id/spinner3"
+            app:layout_constraintVertical_bias="0.58000004" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
