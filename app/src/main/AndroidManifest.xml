@@ -20,8 +20,11 @@
             android:exported="true" />
         <activity
             android:name=".BottomNavActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
         <activity
             android:name=".LoadingPage"
             android:exported="true">
@@ -31,9 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

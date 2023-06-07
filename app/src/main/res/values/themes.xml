@@ -10,9 +10,19 @@
         <item name="colorSecondaryVariant">@color/primary</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor">?attr/colorSecondary</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="BottomNavigationStyle" parent="Widget.Design.BottomNavigationView">
+        <!-- Atributos personalizados do BottomNavigationView -->
+        <item name="itemBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SpinnerWithBorder" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/shape_border</item>
+    </style>
+
 
     <style name="Theme.HortaReal" parent="Base.Theme.HortaReal" />
 </resources>

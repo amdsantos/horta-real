@@ -4,7 +4,7 @@
     <color name="secondary">#34403A</color>
     <color name="background">#FAF6EA</color>
     <color name="light">#69995D</color>
-    <!--<color name="darkk">#FF018786</color>-->
+    <color name="card">#E2C39A</color>
     <color name="black">#252525</color>
     <color name="white">#EEEEEE</color>
 </resources>
